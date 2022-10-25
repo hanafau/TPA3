@@ -1,0 +1,78 @@
+body {
+  font-family: Poppins;
+  margin: 0;
+  background-color: rgb(227, 228, 230);
+}
+
+.navbar {
+  padding: 25px 100px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+}
+
+.form-control {
+  background-color: rgb(243, 243, 243);
+}
+
+.bg-custom {
+  background-color: rgb(227, 228, 230);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.movie {
+  width: 200px;
+  margin: 1rem;
+  border-radius: 3px;
+  position: relative;
+  background-color: rgb(243, 243, 243);
+  border-radius: 3%;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-info {
+  color: darkcyan;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.movie-info span {
+  padding: 0.25rem 0.3rem;
+  background-color: rgb(233, 193, 119);
+  border-radius: 3px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: rgb(221, 144, 0);
+}
+
+.overview {
+  padding-left: 16px;
+  padding-bottom: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
